@@ -10,10 +10,30 @@ body {
     margin-right: auto; 
 }
 
-.right-images { /** Code Reusability !!! **/
+.images { /** Code Reusability !!! **/
     border-radius: 8px;
     box-shadow: 0 13px 27px -5px #32325d40,0 8px 16px -8px #0000004d,0 -6px 16px -6px #00000008;
     margin-left: 15px;
+}
+
+code {
+    font-size: 15px; /* top-bottom,  left-right */
+}
+
+h2 {
+   margin: 10px 0; 
+}
+
+.section-button {
+    background-color: #f4f7fc;
+    text-decoration: none;
+    width: 90%;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 16px 0;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
 }
 
 /********First Section **********/
@@ -55,11 +75,6 @@ body {
     margin: 0;
 }
 
-.logo-title h2 {
-    margin: 12px 0; /* top-bottom,  left-right */
-
-}
-
 .s1-right {
     width: 50%;
     display: flex;
@@ -68,7 +83,6 @@ body {
 }
 
 /******** Second Section **********/
-
 .features {
     background-color: #f4f7fc;
     padding: 100px 0;
@@ -106,7 +120,7 @@ body {
 }
 
 /******** Third Section **********/
-.fetaure-section {
+.feature-section {
     padding: 100px 0;
     background-color: #ffffff;
 }
@@ -115,6 +129,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .f1-left {
@@ -131,23 +146,34 @@ body {
     width: 50%;
 }
 
-.f1-left h2 {
-    margin: 20px 0;
-}
-
 .f1-left p {
     margin: 15px 0;
 }
 
-.f1-left .section-button {
-    background-color: #f4f7fc;
-    text-decoration: none;
-    width: 90%;
-    padding: 10px 16px;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 16px 0;
+/******** Fourth Section **********/
+.feature-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.f2-left {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 50%; 
+}
+
+.f2-left img {
+    margin: 0 40px 0 0;    
+}
+
+.f2-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 15px; 
 }
 
 
