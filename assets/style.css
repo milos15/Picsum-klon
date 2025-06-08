@@ -10,6 +10,12 @@ body {
     margin-right: auto; 
 }
 
+.right-images { /** Code Reusability !!! **/
+    border-radius: 8px;
+    box-shadow: 0 13px 27px -5px #32325d40,0 8px 16px -8px #0000004d,0 -6px 16px -6px #00000008;
+    margin-left: 15px;
+}
+
 /********First Section **********/
 .hero {
     padding: 100px 0;
@@ -56,16 +62,10 @@ body {
 
 .s1-right {
     width: 50%;
-}
-
-.s1-right img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 8px;
-    box-shadow: 0 13px 27px -5px #32325d40,0 8px 16px -8px #0000004d,0 -6px 16px -6px #00000008;
-    margin-left: 15px;
-} 
+}
 
 /******** Second Section **********/
 
@@ -104,4 +104,56 @@ body {
     margin-top: 16;
     margin-bottom: 16;
 }
+
+/******** Third Section **********/
+.fetaure-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.feature-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.f1-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%; 
+}
+
+.f2-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+
+.f1-left h2 {
+    margin: 20px 0;
+}
+
+.f1-left p {
+    margin: 15px 0;
+}
+
+.f1-left .section-button {
+    background-color: #f4f7fc;
+    text-decoration: none;
+    width: 90%;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 16px 0;
+}
+
+
+
+
+
+
+
 
