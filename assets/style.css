@@ -42,7 +42,7 @@ h2 {
     background-color: #ffffff;
 }
 
-.section-1 {
+.hero-content {
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
@@ -88,7 +88,7 @@ h2 {
     padding: 100px 0;
 }
 
-.section-content {
+.feature {
     display: flex; 
     flex-direction: column;
     margin-left: auto;
@@ -98,15 +98,14 @@ h2 {
     text-align: center; 
 }
 
-.section-content h2 {
+.feature h2 {
     font-family: Roboto, sans-serif;
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
-
 }
 
-.section-content a {
+.feature a {
     background-color: white;
     color: #386bf3;
     text-decoration: none;
@@ -174,6 +173,25 @@ h2 {
     justify-content: flex-start;
     width: 50%;
     margin-left: 15px; 
+}
+
+/******** Fifth Section **********/
+.feature-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.f3-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.f3-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
